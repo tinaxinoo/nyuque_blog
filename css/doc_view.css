@@ -1,0 +1,133 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  padding-left: 8%;
+  padding-right: 8%;
+  background-color: #FAF9DE;
+}
+
+img {
+  display: block;
+  /* 确保图像作为块级元素显示 */
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 1%;
+  /* 设置圆角 */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* 添加阴影 */
+}
+
+::selection {
+  color: black;
+  background-color: #ffff00;
+}
+
+.hljs {
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+div[data-type="info"] {
+  background-color: rgb(251, 234, 220);
+}
+
+a,
+.ne-text {
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+.ne-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ne-table th,
+.ne-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.ne-table tfoot {
+  font-weight: bold;
+  border-top: 2px solid #ccc;
+}
+
+.ne-quote {
+  position: relative;
+  padding-left: 1.0em;
+  background-color: #f2f2f2;
+  border-left: 0.25em solid gray;
+}
+
+.ne-quote::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.5em;
+  color: gray;
+  margin-right: 0.25em;
+}
+
+
+.lake-content h1::before {
+  content: "h1";
+  font-weight: bold;
+  font-size: 0.5em;
+  float: left;
+  margin-right: 10px;
+  color: gray;
+}
+
+.lake-content h2::before {
+  content: "h2";
+  font-weight: bold;
+  font-size: 0.4em;
+  float: left;
+  margin-right: 10px;
+  color: gray;
+}
+
+.lake-content h3::before {
+  content: "h3";
+  font-weight: bold;
+  font-size: 0.35em;
+  float: left;
+  margin-right: 10px;
+  color: gray;
+}
+
+.lake-content h4::before {
+  content: "h4";
+  font-weight: bold;
+  font-size: 0.3em;
+  float: left;
+  margin-right: 10px;
+  color: gray;
+}
+
+.lake-content h5::before {
+  content: "h5";
+  font-weight: bold;
+  font-size: 0.25em;
+  float: left;
+  margin-right: 10px;
+  color: gray;
+}
+
+.lake-content h6::before {
+  content: "h6";
+  font-weight: bold;
+  font-size: 0.2em;
+  float: left;
+  margin-right: 10px;
+  color: gray;
+}
+
+.ne-alert {
+  background-color: #C8E6C9;
+  padding: 2%;
+  border-radius: 10px;
+}
